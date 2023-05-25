@@ -5,6 +5,6 @@ class Main{
         int x, y;
         x = 10;
         y = 20;
-        if(x < y) System.out.println("x < y");
+        if(x < y) System.out.println("да");
     }
 }
