@@ -18,6 +18,5 @@ public class Cat {
         Cat street_cat0 = new Cat(count++);
         System.out.println(barsik.name + street_cat0.name);
         barsik.jump();
-
     }
 }

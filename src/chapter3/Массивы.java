@@ -17,6 +17,5 @@ public class Массивы {
         month_days[10] = 31;
         month_days[11] = 30;
         month_days[12] = 31;
-        System.out.print("В сентябре "+month_days[9] + " дней.");
     }
 }
