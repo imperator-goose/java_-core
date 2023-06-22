@@ -1,5 +1,8 @@
 package chapter10;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class isclyuchenia2 {
     public static void chto_to()throws ArithmeticException{
         System.out.println("1");
