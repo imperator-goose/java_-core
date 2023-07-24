@@ -10,6 +10,7 @@ public class LambdaDemo1 {
         Number number;
         number = () -> Math.random() * 100;
         System.out.println(number.getValue());
+
     }
 
 }
