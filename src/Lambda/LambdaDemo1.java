@@ -1,11 +1,11 @@
 package Lambda;
 
 import java.lang.*;
-
+interface Number{
+    double getValue();
+}
 public class LambdaDemo1 {
-    interface Number{
-        double getValue();
-    }
+
     public static void main(String[] args) {
         Number number;
         number = () -> Math.random() * 100;

@@ -10,8 +10,8 @@ public class ReadFile {
         public static void main(String[] args) {
             // Чтение файла и запись его содержимого в другой файл
             try {
-                FileInputStream fileInputStream = new FileInputStream("негр");
-                FileOutputStream fileOutputStream = new FileOutputStream("output.txt");
+                FileInputStream fileInputStream = new FileInputStream("C://input.txt");
+                FileOutputStream fileOutputStream = new FileOutputStream("C://output.txt");
 
                 int data;
                 while ((data = fileInputStream.read()) != -1) {

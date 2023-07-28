@@ -1,9 +1,12 @@
 package Lambda;
 import java.util.Scanner;
+
+
+interface Booleen{
+    boolean getValue(int n);
+}
 public class LambdaDemo2 {
-    interface Booleen{
-        boolean getValue(int n);
-    }
+
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

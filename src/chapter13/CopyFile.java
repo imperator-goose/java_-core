@@ -3,13 +3,10 @@ import java.io.*;
 public class CopyFile {
     public static void main(String[] args) {
         int i;
-        if (args.length != 2){
-            System.out.println("Расисм - это не когда белые не любят негров, это когда одна раса не любят другую, просто белые в этом лучше");
-            return;
-        }
 
-        try(FileInputStream fin = new FileInputStream(args[0]);
-        FileOutputStream fout = new FileOutputStream(args[1]))
+
+        try(FileInputStream fin = new FileInputStream("C://input.txt");
+        FileOutputStream fout = new FileOutputStream("C://output.txt"))
         {
             do {
                 i = fin.read();

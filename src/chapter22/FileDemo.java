@@ -5,7 +5,7 @@ public class FileDemo {
         public static void main(String[] args) {
 
             // определяем объект для каталога
-            File myFile = new File("C://SomeDir//notes.txt");
+            File myFile = new File("C://Имение Руслана. Никому не трогать3");
             System.out.println("File name: " + myFile.getName());
             System.out.println("Parent folder: " + myFile.getParent());
             if(myFile.exists())
@@ -25,7 +25,7 @@ public class FileDemo {
                 System.out.println("File can not be written");
 
             // создадим новый файл
-            File newFile = new File("C://SomeDir//MyFile");
+            File newFile = new File("C://otes1.txt");
             try
             {
                 boolean created = newFile.createNewFile();
