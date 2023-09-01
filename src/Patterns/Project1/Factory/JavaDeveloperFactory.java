@@ -1,11 +1,8 @@
 package Patterns.Project1.Factory;
 
-import Patterns.Project1.Developer;
-import Patterns.Project1.JavaDeveloper;
-
-public class JavaDeveloperFactory implements DeveloperFactory {
+public class JavaDeveloperFactory implements DeveloperFactory{
     @Override
-    public Developer createNewDeveloper(){
+    public Developer createDeveloper(){
         return new JavaDeveloper();
     }
 }
